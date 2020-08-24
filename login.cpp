@@ -5,7 +5,11 @@ int  main()
      string name;
      string password;
 
-    cout<<"please enter your login name:"<<endl;
+   
+
+   while ((name!="parth@gmail.com")||(password!="creeper"))
+   {
+     cout<<"please enter your login name:"<<endl;
     cin>>name;
 
     if(name=="parth@gmail.com")
@@ -18,16 +22,23 @@ int  main()
         }
        
      else
-        {
-            cout<<"invalid password";
-        }
+     {
+         cout<<"invalid password"<<endl;
+     }
+     
         
     }
-
-else{
-    cout<<"invalid account";
-}
-
+    else
+    {
+        cout<<"invalid account"<<endl;
+    }
+      
+   }
+    
+        
+    
+    
      
 
-}
+    }
+
